@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class IdentitasModel extends Model
 {
-    protected $table ="tbl_web";
-    protected $primaryKey ="id_web";
+    protected $table ="identitas";
+    protected $primaryKey ="id";
 }

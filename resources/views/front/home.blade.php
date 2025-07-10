@@ -11,10 +11,10 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
-                    <p><strong>Nama Rumah Sakit:</strong> RS Sehat Selalu</p>
+                    <p><strong>Nama Rumah Sakit:</strong> RS Universitas Hangtuah Pekanbaru</p>
                     <p><strong>Alamat:</strong> Jl. Melati No. 10, Pekanbaru</p>
                     <p><strong>Nomor Telepon:</strong> (0761) 123456</p>
-                    <p><strong>Email:</strong> info@rssehatselalu.com</p>
+                    <p><strong>Email:</strong> inforsuhtp@htp.com</p>
                 </div>
                 <div class="col-md-6">
                     <img src="{{ asset('img/hospital.jpg') }}" alt="Gambar Rumah Sakit" class="img-fluid rounded shadow-sm">
@@ -50,7 +50,7 @@
                     <i class="bi bi-hospital-fill text-info fs-2 mb-2"></i>
                     <h5 class="card-title">Informasi Kamar</h5>
                     <p class="card-text">Ketersediaan dan status kamar rawat inap.</p>
-                    <a href="{{ url('informasi-kamar') }}" class="btn btn-info btn-sm">Lihat Ketersediaan</a>
+                    <a href="{{ route('kamar.index') }}" class="btn btn-info btn-sm">Lihat Ketersediaan</a>
                 </div>
             </div>
         </div>
